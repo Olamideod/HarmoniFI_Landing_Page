@@ -1,0 +1,90 @@
+@media (min-width: 1279px) {
+}
+
+@media (max-width: 1279px) {
+
+    section.banner {
+        background-image: url("./assets/bg/main-tablet.svg");
+        background-size: 153%;
+        background-position: right 40% center;
+      }
+
+  section.banner h1 {
+    font-size: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  section.banner h1 {
+    font-size: 6rem;
+  }
+
+  header nav ul{
+    justify-content: inherit;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    height: 12rem;
+}
+
+footer .links{
+    width: 100%;
+    margin: 2rem auto;
+    flex-direction: column;
+}
+
+footer .company, footer .communities, footer .userful-links{
+    margin-top: 2rem;
+}
+
+footer .extras span{
+    margin-top: 2rem;
+}
+
+}
+
+@media(max-width: 510px){
+    .hamburger-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    header nav ul{
+        display: none;
+    }
+
+    header nav ul.hamburger-opened{
+        flex-direction: column;
+        row-gap: 1rem;
+        display: flex;
+      }
+
+      header.hamburger-opened{
+        height: 27.5rem;
+      }
+    
+    }
+
+@media (max-width: 480px) {
+  section.banner {
+    background-image: url("./assets/bg/main-mobile.svg");
+    background-size: 195%;
+    background-position: center top 50%;
+  }
+
+  section.banner h1 {
+    font-size: 5rem;
+  }
+}
